@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
-import Counter from './counter';
+import CounterFeature from './counterFeature';
 
 
 class Counters extends Component {
+    // shud always IMMUTABLE -> to perform undo feature which is common in all apps
+        // also it will be easier to spot the difference changing
     state = { 
        counters : [
            {id: 1, value: 0},
@@ -13,6 +15,9 @@ class Counters extends Component {
        anything: 'nice',
        anythingx: 'okay'
     }
+
+
+    // const anyFunc = () => { functional feature}
 
     handleDelete = (counterId) => {
         // console.log('Event handler called');
@@ -30,16 +35,17 @@ class Counters extends Component {
 
             <div>
                { this.state.counters.map( counter => 
-               <Counter 
+               <CounterFeature 
                         // passing props here
                         key={ counter.id } 
                         
-                        onDelete={ this.handleDelete }
+                        onHapus={ this.handleDelete }
                         // value={ counter.value } 
                         // id={ counter.id }
                         // counter can bring all the component of counters
-                        counter={ counter } // then change with 'onClick={this.props.counter.id} in counter.jsx
-                                            // also this.state = { count: this.props.counter.value in counter.jsx};
+                        counter={ counter } 
+                        // then change with 'onClick={this.props.counter.id} in counter.jsx
+                        // also this.state = { count: this.props.counter.value in counter.jsx};
                         />) }                  
             </div>
 

@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
-import '../App.css';
+import '../../App.css';
 import 'bootstrap/dist/css/bootstrap.css'
 
-class Counter extends Component {
+class CounterFeature extends Component {
 
     constructor(props) {
+      // shud always IMMUTABLE -> to perform undo feature which is common in all apps
+        // also it will be easier to spot the difference changing
       super(props);
         // state is property in react 'component'          
       this.state = { 
@@ -41,11 +43,7 @@ class Counter extends Component {
       return(
         //   using <React.Fragment> or <div>
           <div className>
-            
-            {/* 
-                note: dont put parenthesis on handleIncrement because
-                      because handleIncrement is reference
-            */}
+           
             {/* style = {{fontSize:50, fontWeight:'Bold'}}  untuk attach style independently*/}
               <span className={ classes }> { formatCount } </span>
             
@@ -55,15 +53,15 @@ class Counter extends Component {
                 onClick={ this.handleIncrement } 
               >
               Increment</button>
-
-              <button onClick={ () => this.props.onDelete(this.props.counter.id) }
+                {  /* nama onDelete  ---> dapat diganti dengan nama lain */   }
+              <button onClick={ () => this.props.onHapus(this.props.counter.id) }
                       className="btn btn-danger btn-sm m-2"
               >
                 Delete</button>
           </div>
          
       );
-  }
+  } // render()
 
         // Rendering Classes Dynamically --> has been refactored!
         getBadgeClasses() {
@@ -83,4 +81,4 @@ class Counter extends Component {
 
 
 
-export default Counter;
+export default CounterFeature;

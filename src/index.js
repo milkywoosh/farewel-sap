@@ -10,26 +10,37 @@ import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import Counters from './components/counters';
-import Clock from './components/clock';
-import BindingAny from './components/tryBinding';
-
+import Counters from './components/interactiveListFeatureClass/counters';
+import Clock from './components/clockClass/clock';
+import Board from './components/boardProjectClass/board';
+import Game from './components/boardProjectClass/game';
+import Henloo from './components/lkm_trial/lkm'
+import CounterFunc from './components/countersFunction/counterFunc'
 // import CounterImprove from './components/counterImprove'
 // import CounterCondRender from './components/counterConditionalRendering';
-
 // import AppHello from './Apphello'
 
+import BoardFunc from './components/boardProjectFunction/boardFunc';
+import CounterFeatureFunc from './components/interactiveListFeaturesFunction/countersMainFunc';
 
 
 
 ReactDOM.render(
   //  put your 'Package' inside the <React.Fragment>
   <React.Fragment>
-     <BindingAny />
-     <Clock />
-     <Counters /> 
-
+     {/* <BindingAny />
+     <Clock />}
+    {/* <CounterFunc /> */}
+    {/* current focus */}
+    {/* <Board /> */}
+     {/* <Game /> */}
+     {/* <Henloo /> */}
      {/* <App /> */}
+
+     {/* <Counters /> */}
+     <BoardFunc />
+     <CounterFeatureFunc />
+
  
      
   </React.Fragment>, 
