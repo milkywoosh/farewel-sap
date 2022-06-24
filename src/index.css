@@ -2,7 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: darkgray;
+  /* align-items:center */
+
+
+
 } 
 
 body {
@@ -12,7 +15,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* background-color:darkgrey; */
+  background-color: rgb(244, 101, 5);
 
 }
 

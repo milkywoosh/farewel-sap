@@ -1,0 +1,15 @@
+#introWord {
+    margin-left: 10px;
+    margin-right: 40px;
+    text-indent: 2rem;
+    text-align: justify;
+    align-items: center;
+}
+
+#someWords {
+    text-align: justify;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 80px;
+    line-height: 30px;
+}
