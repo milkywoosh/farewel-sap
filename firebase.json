@@ -9,7 +9,7 @@
     "redirects": [ 
       {
         "source" : "*",
-        "destination" : "public/index.html"
+        "destination" : "/public/index.html"
       } 
     ]
   }
