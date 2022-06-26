@@ -1,4 +1,5 @@
 import React from "react";
+import "./style.css";
 import {
   Nav,
   NavLink,
@@ -12,21 +13,21 @@ const Navbar = () => {
   return (
     <>
       <Nav>
-        <Bars />
+        {/* <Bars /> */}
 
         <NavMenu>
+          <div id="sapLogo"> GOODBYE SAP</div>
           <NavLink to="/" activestyle="true">
             Home
           </NavLink>
           <NavLink to="/people" activestyle="true">
-            People
+            Rekan
           </NavLink>
           <NavLink to="/about" activestyle="true">
-            About
+            Ucapan
           </NavLink>
          
         </NavMenu>
-   
       </Nav>
     </>
   );

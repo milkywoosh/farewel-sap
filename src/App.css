@@ -1,0 +1,17 @@
+.striped-border { 
+    border: 3px solid #800080; 
+    /* background-color: #d865c9; */
+    border-radius: 10px;
+    width: 96%;
+    margin-left: 20px;
+
+    bottom:0;
+    margin-bottom: 5px;
+    position: absolute;
+   
+}
+@media only screen and (max-width: 950px) {
+    .striped-border { 
+        display: none;
+    }
+}

@@ -4,6 +4,7 @@ import Home from "../Pages/Home/Home";
 import About from "../Pages/About/About";
 import NavBar from "../NavBar";
 import People from "../Pages/People/People";
+import "./RoutingPage.css"
 
 function RoutingPage() {
   return (
@@ -17,6 +18,7 @@ function RoutingPage() {
           <Route />
         </Routes>
       </Router>
+        
     </>
   );
 }

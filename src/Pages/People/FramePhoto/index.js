@@ -62,7 +62,7 @@ function FramePhoto(props) {
         data-slide="prev"
         onClick={PrevPhoto}
       >
-        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span className="carousel-control-prev-icon " aria-hidden="true"></span>
         <span className="sr-only">Previous</span>
       </a>
       <a
@@ -83,7 +83,6 @@ function FramePhoto(props) {
           style={{
 
             display: "flex",
-            // backgroundColor: "#9b20b7",
             borderRadius: "5px",
             justifyContent: "center",
             textAlign: "center"

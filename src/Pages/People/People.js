@@ -22,6 +22,8 @@ function People(props) {
           style={{
             color: "#ffffff",
             margin: "3rem 3rem 3rem 3rem",
+            textIndent: "40px",
+            lineHeight: "40px",
           }}
         >
           {KKSquad[indexText].text}

@@ -13,6 +13,7 @@ function App() { // --> JSX
   return ( 
     <div className = 'app'>
       <RoutingPage />
+      {/* <div className='striped-border'></div> */}
     </div>
   );
 }
