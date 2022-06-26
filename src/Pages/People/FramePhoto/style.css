@@ -1,0 +1,11 @@
+.colorSpan {
+
+    background-color:  #9b20b7;
+}
+
+.img-fluid {
+    width: 300px;
+    height: 300px;
+    margin-left: 7rem;
+    border: "3px solid black",
+}

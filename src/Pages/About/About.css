@@ -1,9 +1,12 @@
-#introWord {
+.introWord {
     margin-left: 10px;
-    margin-right: 40px;
-    text-indent: 2rem;
+    margin-right: 80px;
+    text-indent: 0;
     text-align: justify;
     align-items: center;
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 6px;
 }
 
 #someWords {
@@ -11,5 +14,5 @@
     align-items: center;
     margin-left: 10px;
     margin-right: 80px;
-    line-height: 30px;
+    line-height: 40px;
 }

@@ -1,6 +1,6 @@
 
 import RoutingPage from './RoutingPage/RoutingPage';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 

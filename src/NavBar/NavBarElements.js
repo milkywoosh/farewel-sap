@@ -7,7 +7,7 @@ export const Nav = styled.nav`
   height: 70px;
   display: flex;
   border-radius: 5px;
-  margin: 6px;
+  margin: 8px;
   justify-content: space-around;
   padding: 0.7rem calc((100vw - 1000px) / 2);
   z-index: 12;
