@@ -3,7 +3,7 @@ export const KKSquad = [
     no: 1,
     name: "Bang ichaLL",
     text:
-      "DS nya orang KK CS dan OPS, DSnya pa maruto / irwan / ikhwan / irfan, penikmat top kofi 3x sehari <h2>&#128514;</h2> , tiap hari ngajarin gua pas baru masuk SAP sampe sekarang sharing komplen klien, udah kaya abang gua sendiri di kantor, tempat minta tolong semua orang KK",
+      "DS nya orang KK CS dan OPS, DSnya pa maruto / irwan / ikhwan / irfan, penikmat top kofi 3x sehari , tiap hari ngajarin gua pas baru masuk SAP sampe sekarang sharing komplen klien, udah kaya abang gua sendiri di kantor, tempat minta tolong semua orang KK",
   },
   {
     no: 2,
@@ -62,7 +62,7 @@ export const KKSquad = [
   },
   {
     no: 12,
-    name: "Mba ziii",
+    name: "Mba zi",
     text:
       "mba zizi AKA Fauziyah, mahmud 1 anak yang baik hati tukang bawa makanan banyak, kalo mau ambil di lacinya aja tu gaes tpi ijin dulu yak wkwkwk, hillnya 10 senti paling hitz se jaksel. Besti nya adit juga",
   },
@@ -110,13 +110,13 @@ export const KKSquad = [
   },
   {
     no: 21,
-    name: "Bang Agilll",
+    name: "Bang Agil",
     text:
       "Sobat ngapak BARLINGMASCAKEB asal banjarnegara, perantau garis keras yang selalu sigap untuk diminta tolong cek barang fisik retur yang nyasar seluruh anak SAP",
   },
   {
     no: 22,
-    name: "Dildulll",
+    name: "Dildul",
     text: "emaknya iqiz, atiati digalakin euy wkwkwk (ampun cuy)",
   },
   {

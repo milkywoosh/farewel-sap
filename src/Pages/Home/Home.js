@@ -61,18 +61,18 @@ function Home() {
         </div>
         <div className="rightcolumn">
           <div className="cards">
-            <div className="fakeimg" style={{ height: "50px" }}>
+            <div className="gitHub" style={{ height: "50px" }}>
               <a
                 id="linkGit"
                 href="https://github.com/milkywoosh/farewel-sap/tree/master"
-                style={{ fontWeight: "100", alignItems: "center", textAlign: "center" }}
+                style={{ fontWeight: "100", textAlign: "center" }}
               >
-                <u>Github</u>
+                <u style={{textAlign: "center"}}>Github</u>
               </a>
             </div>
           </div>
           <div className="cards">
-            <h3>Popular Post</h3>
+            <h3 style={{textAlign: "center", background: "#f46505", borderRadius: "5px", padding: "6px"}}>Popular Post</h3>
             <div className="fakeimg">
               <p>Sic Parvis Magna</p>
             </div>
