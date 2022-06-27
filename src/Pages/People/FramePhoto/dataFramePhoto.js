@@ -82,13 +82,13 @@ export const KKSquad = [
     no: 15,
     name: "Wa'awuuww wauw",
     text:
-      "Wahyu tapi bukan fredi, juga bukan wahyu ras sapi pedaging, adalah Wahyu wibowo, bocah cawank, besti sobat pojok tim KK , calon koordinator retur KK SAP andara, sobat solid cawank.. U'u ma'an umaann ready to berangkat ke puncak suatu saat nanti wkwk    ",
+      "Wahyu tapi bukan wahyu fredi, juga bukan wahyu ras sapi pedaging, tapi adalah Wahyu wibowo, bocah cawank, besti sobat ruang tim KK , calon koordinator retur KK SAP andara, sobat solid cawank.. ayo lah berangkat ke puncak suatu saat nanti wau",
   },
    {
     no: 16,
     name: "Mba Puut",
     text:
-      "Wahyu tapi bukan fredi, juga bukan wahyu ras sapi pedaging, adalah Wahyu wibowo, bocah cawank, besti sobat pojok tim KK , calon koordinator retur KK SAP andara, sobat solid cawank.. U'u ma'an umaann ready to berangkat ke puncak suatu saat nanti wkwk    ",
+      "Wahyu juga tapi bukan wahyu fredi, juga bukan wahyu ras sapi pedaging, bukan juga Wahyu wibowo, tapi adalah Putri Incoming Retur yang nanti naek ke CS, pokoknya mantul lah",
   },
   {
     no: 17,
@@ -124,9 +124,9 @@ export const KKSquad = [
     name: "Adit",
     text: "AKA Aditya, orang KK lama sobat pak lucius Maybank, konsultan perdiskonan segala barang, dari gofud atau fud fud-an lainnya, barang stylish dress OOTD, minya wangi sampe Mekanikal Keyboard boleh ni tanya ke doi",
   },
-  { no: 12, name: "Kholidunn", text: "special LEGEND Former SAP, AKA Kholid, sobat yang bawa gua masuk ke SAP, terimakasih banyak cuyyy gua pokoknya mah, berpisah untuk ketemu lagi di mawar" },
-  { no: 13, name: "Namirah", text: "special LEGEND Former SAP, yang sekarang di kurir sebelah" },
-  { no: 14, name: "Bang botak", text: "special LEGEND, Former SAP SPV gua jaman baru masuk" },
+  { no: 24, name: "Kholidunn", text: "special LEGEND Former SAP, AKA Kholid, sobat yang bawa gua masuk ke SAP, terimakasih banyak cuyyy gua pokoknya mah, berpisah untuk ketemu lagi di mawar" },
+  { no: 25, name: "Namirah", text: "special LEGEND Former SAP, yang sekarang di kurir sebelah" },
+  { no: 26, name: "Bang botak", text: "special LEGEND, Former SAP SPV gua jaman baru masuk" },
 ];
 
 export const DataPerson = [
