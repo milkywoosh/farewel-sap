@@ -29,8 +29,8 @@ function About() {
         <br/>
         <br/>
         <h4 id="someWords"> Kemudian saya mengucapkan terimakasih sebanyak"nya kepada teman-teman SAPX atas kebaikannya, khususnya Pak Budi dan Bu Nency selaku petinggi di PT SAP Tbk, Pak Fredy, Bu Ade Suminar, 
-        pak Hani, Pak Ridwan sebagai atasan saya yang telah memberikan banyak ilmu secara langsung dan tidak langsung. 
-        Rekan-rekan SAP kantor pusat HO Jakarta Timur, tim OPS KK, filling KK (pak agus, irfan, danang, farid), kurir pick up (bg candra, cang man, bg ocid, dika, bg wahid, pa haji rendi), CS DS KK, tim marketing pak Ari wp dan teman-teman CS cabang dan Kurir yang selalu fast respon 
+        pak Hani, Pak Ridwan sebagai atasan saya yang telah mengarahkan, memberikan banyak ilmu secara langsung dan tidak langsung. 
+        Rekan-rekan SAP kantor pusat HO Jakarta Timur, tim OPS KK, tim IT(edi sunaryo, randy, keenan), filling KK (pak agus, irfan, danang, farid), kurir pick up (bg candra, cang man, bg ocid, dika, bg wahid, pa haji rendi), CS DS KK, tim marketing pak Ari wp dan teman-teman CS cabang, Kurir dan tim NOS Selindo yang selalu fast respon 
         untuk diminta bantuannya mengenai komplain client yang bertubi tubi. <br/>
         <br/>
 
