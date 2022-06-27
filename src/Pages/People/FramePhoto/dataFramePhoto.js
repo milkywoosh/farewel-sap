@@ -85,42 +85,42 @@ export const KKSquad = [
       "Wahyu tapi bukan fredi, juga bukan wahyu ras sapi pedaging, adalah Wahyu wibowo, bocah cawank, besti sobat pojok tim KK , calon koordinator retur KK SAP andara, sobat solid cawank.. U'u ma'an umaann ready to berangkat ke puncak suatu saat nanti wkwk    ",
   },
    {
-    no: 15,
+    no: 16,
     name: "Mba Puut",
     text:
       "Wahyu tapi bukan fredi, juga bukan wahyu ras sapi pedaging, adalah Wahyu wibowo, bocah cawank, besti sobat pojok tim KK , calon koordinator retur KK SAP andara, sobat solid cawank.. U'u ma'an umaann ready to berangkat ke puncak suatu saat nanti wkwk    ",
   },
   {
-    no: 8,
+    no: 17,
     name: "Gowed",
     text:
       "AKA Dewi, preman usman harun paling keras bos, sobat solid bareng wauww, pokoknya ati ati jangan dikata bos ntar kenape kenape ",
   },
-  { no: 9, name: "Inang Butet", text: "AKA nopita on ce upon etaymmmmmm kata wauww" },
+  { no: 18, name: "Inang Butet", text: "AKA nopita on ce upon etaymmmmmm kata wauww" },
   {
-    no: 10,
+    no: 19,
     name: "Nina",
     text: "Nina atau jenap satiri yg katanya mau ketemuin gua sama cowonye, kalo mesen nasi udug, keripik 2 ribuan bisa ke dia cuuy.",
   },
   {
-    no: 10,
+    no: 20,
     name: "Bang Solmet",
     text:
       "AKA bang Rahmat Nur Hadi yang ngurusin return barang SELINDO, pengguna Foxpro garis keras, aplikasi manajemen retur kelas industri yang kepake banget",
   },
   {
-    no: 10,
+    no: 21,
     name: "Bang Agilll",
     text:
       "Sobat ngapak BARLINGMASCAKEB asal banjarnegara, perantau garis keras yang selalu sigap untuk diminta tolong cek barang fisik retur yang nyasar seluruh anak SAP",
   },
   {
-    no: 11,
+    no: 22,
     name: "Dildulll",
     text: "emaknya iqiz, atiati digalakin euy wkwkwk (ampun cuy)",
   },
   {
-    no: 11,
+    no: 23,
     name: "Adit",
     text: "AKA Aditya, orang KK lama sobat pak lucius Maybank, konsultan perdiskonan segala barang, dari gofud atau fud fud-an lainnya, barang stylish dress OOTD, minya wangi sampe Mekanikal Keyboard boleh ni tanya ke doi",
   },
