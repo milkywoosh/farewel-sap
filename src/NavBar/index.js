@@ -3,10 +3,7 @@ import "./style.css";
 import {
   Nav,
   NavLink,
-  Bars,
   NavMenu,
-  NavBtn,
-  NavBtnLink,
 } from "./NavBarElements.js";
 
 const Navbar = () => {

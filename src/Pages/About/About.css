@@ -54,3 +54,7 @@
   transform: translateY(2px);
   }
 
+  .clicked {
+    background-color: #d865c9;
+  }
+

@@ -106,13 +106,13 @@ export const KKSquad = [
     no: 20,
     name: "Bang Solmet",
     text:
-      "AKA bang Rahmat Nur Hadi yang ngurusin return barang SELINDO, pengguna Foxpro garis keras, aplikasi manajemen retur kelas industri yang kepake banget",
+      "AKA bang Rahmat Nur Hadi yang ngurusin return barang SELINDO, pengguna Foxpro level dewa, aplikasi manajemen retur kelas industri",
   },
   {
     no: 21,
     name: "Bang Agil",
     text:
-      "Sobat ngapak BARLINGMASCAKEB asal banjarnegara, perantau garis keras yang selalu sigap untuk diminta tolong cek barang fisik retur yang nyasar seluruh anak SAP",
+      "Sobat ngapak BARLINGMASCAKEB asal banjarnegara, yang selalu sigap untuk diminta tolong cek barang fisik retur yang nyasar seluruh anak SAP",
   },
   {
     no: 22,
@@ -143,7 +143,7 @@ export const DataPerson = [
   <div className="carousel-item active leftCarousel marginUp">
     <img
       className="img-fluid"
-      src={require("../../../assets/pic2.jpeg").default}
+      src={require("../../../assets/bertapa.JPG").default}
       alt="Second slide"
       width="600"
       height="600"
@@ -152,7 +152,7 @@ export const DataPerson = [
   <div className="carousel-item active leftCarousel marginUp">
     <img
       className="img-fluid"
-      src={require("../../../assets/pic3.jpeg").default}
+      src={require("../../../assets/pic2.jpeg").default}
       alt="Third slide"
       width="600"
       height="600"
@@ -161,7 +161,7 @@ export const DataPerson = [
   <div className="carousel-item active leftCarousel marginUp">
     <img
       className="img-fluid"
-      src={require("../../../assets/pic4.jpeg").default}
+      src={require("../../../assets/pic3.jpeg").default}
       alt="Third slide"
       width="600"
       height="600"

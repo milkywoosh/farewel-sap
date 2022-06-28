@@ -28,13 +28,7 @@ function FramePhoto(props) {
       props.SetIndex(3);
     }
   };
-  const slideIndicator = (arg, currSlide) => {
-    if (arg === currSlide) {
-      return "active";
-    } else {
-      return null;
-    }
-  };
+ 
 
   return (
     <div

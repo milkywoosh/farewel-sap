@@ -8,9 +8,13 @@ function About() {
 
   const setToSAP = () => {
     setWords(true);
+    document.getElementById("sap").style.backgroundColor = "#d865c9"
+    document.getElementById("client").style.backgroundColor = ""
   };
   const setToClient = () => {
     setWords(false);
+    document.getElementById("client").style.backgroundColor = "#d865c9"
+    document.getElementById("sap").style.backgroundColor = ""
   };
 
   const forSAP = (
@@ -63,7 +67,8 @@ function About() {
             Pak Ridwan sebagai atasan saya yang telah mengarahkan, memberikan
             banyak ilmu secara langsung dan tidak langsung. Rekan-rekan SAP
             kantor pusat HO Jakarta Timur yang telah banyak membantu dalam
-            proses pekerjaan, tim OPS KK, tim IT(edi sunaryo, randy, keenan),
+            proses pekerjaan, tim OPS KK(bg petrik, pak Iswanto, bg faisal, bg fajar, dinda, dila, baba, bg maul, indah),
+            tim IT(bg agus, bg tomi, bg budi, bg deden, edi sunaryo, randy, keenan),
             filling KK (pak agus, irfan, danang, farid), kurir pick up (bg
             candra, cang man, bg ocid, dika, bg wahid, pa haji rendi), CS DS KK,
             tim marketing pak Ari wp dan terakhir kepada teman-teman CS cabang,
@@ -111,9 +116,7 @@ function About() {
         }}
       >
         <h2 class="introWord">
-          {" "}
           <b>
-            {" "}
             Selanjutnya saya memohon maaf sebesar-besarnya kepada tim Client yang selama ini berada di bawah tanggung jawab sayaa
           </b>
         </h2>
@@ -123,10 +126,11 @@ function About() {
           {" "}
           <b>
             {" "}
-           Kepada tim Bank Mega khususnya pak Maruto, bu Ria, pak Ikhwan, pak Irwan, pak Agus, pak irfan, bu Grace selanjutnya
+           Kepada tim Bank Mega khususnya pak Maruto, bu Ria, pak Ikhwan, pak Irwan, pak Agus, pak irfan, pak Agung, bu Grace juga
            kepada tim Maybank  khususnya pak Gerrid, pak Irfan, pak Welin.. <br/>
-            dari saya mengucapkan terimakasih banyak atas kerjasamanya, dan yang mungkin dirasa belum maksimal dalam handle complain
-            dan permasalahan.
+            dari saya mengucapkan terimakasih banyak atas kerjasamanya, dan mohon maaf 
+            karena mungkin dirasa belum dapat maksimal dalam handle complain
+            dan permasalahan yang ada.
               🙇 🙇 🙇 🙏🙏🙏{" "}
           </b>
         </h4>
@@ -137,8 +141,8 @@ function About() {
   return (
     <div className="outter">
       <div className="buttonChoice">
-        <button className="button" onClick={setToSAP}> <b> SAP X</b></button>
-        <button className="button" onClick={setToClient}> <b> CLIENT </b> </button>
+        <button id="sap" className="button" onClick={setToSAP} style={{backgroundColor:"#d865c9"}}> <b> SAP X</b></button>
+        <button id="client" className="button" onClick={setToClient}> <b> CLIENT </b> </button>
       </div>
       <div>{words ? forSAP : forClient}</div>
     </div>

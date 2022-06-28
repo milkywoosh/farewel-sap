@@ -35,11 +35,13 @@ function Home() {
                 width: "400px",
                 boxShadow: "2px 2px 1px 1px black",
                 border: "3px solid black",
-                textAlign: "center",
+                textAlign: "left",
                 fontWeight: "800",
               }}
             >
-              Periode 2019 - 2022, SAP Halim Perdana Kusuma, no. 28 Jl. Komodor
+              Peran yang kocak bikin kita terbahak-bahak, Peran bercinta bikin
+              orang mabuk kepayang, Dunia ini penuh peranan, Dunia ini bagaikan
+              jembatan kehidupan
             </h5>
             <h5
               style={{
@@ -49,12 +51,14 @@ function Home() {
                 width: "400px",
                 boxShadow: "2px 2px 1px 1px black",
                 border: "3px solid black",
-                textAlign: "center",
+                textAlign: "left",
                 marginLeft: "100px",
                 fontWeight: "800",
               }}
             >
-              Periode 2019 - 2022, SAP Halim Perdana Kusuma, no. 28 Jl. Komodor
+              Bukan lautan hanya kolam susu Kail dan jalan cukup menghidupimu,
+              Tiada badai tiada topan kau temui, Ikan dan udang menghampiri
+              dirimu
             </h5>
             <h5
               style={{
@@ -64,12 +68,14 @@ function Home() {
                 width: "400px",
                 boxShadow: "2px 2px 1px 1px black",
                 border: "3px solid black",
-                textAlign: "center",
+                textAlign: "left",
                 marginLeft: "300px",
                 fontWeight: "800",
               }}
             >
-              Periode 2019 - 2022, SAP Halim Perdana Kusuma, no. 28 Jl. Komodor
+              Duduk sini nak dekat pada bapak, Jangan kau ganggu ibumu, Turunlah
+              lekas dari pangkuannya, Engkau lelaki kelak sendiri, Jauh jalan
+              yang harus kau tempuh, Mungkin samar bahkan mungkin gelap
             </h5>
             <div
               style={{
@@ -98,7 +104,6 @@ function Home() {
               style={{
                 height: "550px",
                 borderRadius: "5px",
-                marginBottom: "100px",
                 justifyContent: "center",
                 alignContent: "center",
                 alignItems: "center",
@@ -117,6 +122,28 @@ function Home() {
                 }}
               />
             </div>
+            <div
+              style={{
+                height: "550px",
+                borderRadius: "5px",
+                justifyContent: "center",
+                alignContent: "center",
+                marginBottom: "100px",
+                width: "100%",
+              }}
+            >
+              <img
+                className=""
+                alt=""
+                src={require("../../assets/bertapa.JPG").default}
+                style={{
+                  boxShadow: "4px 4px 2px 2px black",
+                  border: "3px solid black",
+                  height: "500px",
+                  borderRadius: "5px",
+                }}
+              />
+            </div>
           </div>
         </div>
 
@@ -126,16 +153,15 @@ function Home() {
               <a
                 id="linkGit"
                 href="https://github.com/milkywoosh/"
-                target="_blank" rel="noopener noreferrer"
+                target="_blank"
+                rel="noopener noreferrer"
                 style={{
                   fontWeight: "600",
                   textAlign: "center",
                   width: "200px",
                 }}
               >
-                <button
-                  className="button"
-                >
+                <button className="button">
                   {" "}
                   <b> GITHUB</b>
                 </button>
@@ -153,25 +179,61 @@ function Home() {
                 fontWeight: "600",
               }}
             >
-              Popular Post
+              My Articles
             </h3>
             <div className="fakeimg boxBold">
-              <p style={{ fontWeight: "600" }}>Sic Parvis Magna</p>
+              <p style={{ fontWeight: "600", textAlign: "center" }}>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ color: "black" }}
+                  href="https://medium.com/p/6615ff5eac2a#d2ac-bd24e91ee8c"
+                >
+                  {" "}
+                  Basic Javascript{" "}
+                </a>
+              </p>
             </div>
             <div className="fakeimg boxBold">
-              <p style={{ fontWeight: "600" }}>Sic Parvis Magna</p>
+              <p style={{ fontWeight: "600", textAlign: "center" }}>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ color: "black" }}
+                  href="https://medium.com/@archer.lukman/basic-looping-in-python-58b22534491c"
+                >
+                  {" "}
+                  Python Intro{" "}
+                </a>
+              </p>
             </div>
             <div className="fakeimg boxBold">
-              <p style={{ fontWeight: "600" }}>Sic Parvis Magna</p>
+              <p style={{ fontWeight: "600", textAlign: "center" }}>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ color: "black" }}
+                  href="https://medium.com/@archer.lukman/spread-syntax-di-javascript-obj-1ca01fa05c6c"
+                >
+                  Spread Syntax Javascript
+                </a>
+              </p>
             </div>
           </div>
+
+          <div className="filler"></div>
         </div>
       </div>
 
       <div className="topnav"></div>
 
       <div className="footer">
-        <p>© 2022 Lukman</p>
+        <p id="footerid">
+          {" "}
+          <u>
+            <b> ©2022 Lukman</b>
+          </u>
+        </p>
       </div>
     </div>
   );
