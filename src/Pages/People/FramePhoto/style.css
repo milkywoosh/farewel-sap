@@ -2,9 +2,12 @@
 
     background-color:  #800080;
 
-
-
 }
+
+.marginUp {
+        margin-top:5rem
+}
+
 
 .img-fluid {
     width: 300px;

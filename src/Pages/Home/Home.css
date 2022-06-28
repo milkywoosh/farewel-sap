@@ -1,24 +1,52 @@
 #wrapperHome {
-    box-sizing: border-box;
-    padding: 30px;
+    /* box-sizing: border-box; */
+    padding: 20px;
     font-family: Arial;
-    padding: 3px;
+   
+    
+  }
+  .row {
+    /* display: flex; */
 
+    align-items: center;
+    /* justify-content: center; */
+    /* margin-left: 0.3rem;
+    margin-right: 0.3rem; */
+    /* position: absolute; */
+    /* margin-top: 50px; */
+
+    margin-bottom: 10px;
+
+
+  }
+  .rowContent {
+
+
+  }
+  .boxBold {
+    box-shadow: 2px 2px 1px 1px black;
+    border: 3px solid black;
+    font-weight: "600";
+  }
+  .leftMargin {
+    margin-left: 100px;
   }
 
   /* Header/Blog Title */
   #linkGit{
     color: black;
     position: sticky;
-    top: 20%;
-    left: 50%;
-
+    /* top: 50%;
+    left: 50%; */
+ 
     margin-bottom: 10px; 
     font-size: 20px;
   }
   
   .header h1 {
     font-size: 50px;
+    box-shadow: 4px 4px 2px 2px black;
+    border: 3px solid black;
   }
   
   /* Style the top navigation bar */
@@ -35,25 +63,30 @@
     text-align: center;
     /* padding: 0px 16px; */
     text-decoration: none;
+    box-shadow: 4px 4px 2px 2px black;
+    border: 3px solid black;
   }
   
   /* Change color on hover */
   .topnav a:hover {
     /* background-color: #ddd; */
     color: black;
+    
   }
   
   /* Create two unequal columns that floats next to each other */
   /* Left column */
   .leftcolumn {   
-    float: left;
-    width: 75%;
+    /* float: left; */
+    justify-content: 'center';
+    display: flex;
+
   }
   
   /* Right column */
   .rightcolumn {
     float: left;
-    width: 25%;
+    width: 35%;
     padding-left: 20px;
   }
   
@@ -64,6 +97,8 @@
     border-radius: 4px;
     padding: 20px;
     margin: 10px;
+    justify-content: center;
+
   }
   .gitHub {
     background-color: #d865c9;
@@ -72,23 +107,40 @@
     padding: auto;
     margin-top: 4px;
     text-align: center;
+    box-shadow: 4px 4px 2px 2px black;
+    border: 3px solid black;
   }
   
   /* Add a card effect for articles */
   .cards {
     background-color: #800080;
     border-radius: 4px;
-    padding: 20px;
+    padding: 10px;
     /* margin-top: 3px; */
     margin-bottom: 10px;
+    box-shadow: 4px 4px 2px 2px black;
+    border: 3px solid black;
+    justify-content: center;
+  }
+  .cardWrapper {
+    background-color: #800080;
+    border-radius: 4px;
+    padding: 10px;
+    /* margin-top: 3px; */
+    margin-bottom: 10px;
+    width: 800px;
+    border: 3px solid black;
+    justify-content: center;
+    box-shadow: 4px 4px 2px 2px black;
+
   }
   
   /* Clear floats after the columns */
   .row::after {
-    /* content: " ";
+    content: " ";
     display: table;
     clear: left;
-     */
+    
   }
   
   /* Footer */
@@ -100,13 +152,38 @@
     border-radius: 4px;
     color: rgb(255, 255, 255);
     /* margin: auto; */
+    box-shadow: 2px 2px 2px 2px black;
+    border: 3px solid black;
   }
   
+
+  .button {
+    background-color: #f56505; /* Green */
+    color: black;
+    border: 4px solid black;
+    padding: 2px;
+    width: 200px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: "bolder";
+    margin: 5px;
+    box-shadow: 1px 1px 1px 1px black;
+  }
+
+  .button:active {
+    background-color: #d865c9;
+  box-shadow: 4px 4px 2px 2px black;
+  transform: translateY(2px);
+  }
+
   /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 800px) {
     .leftcolumn, .rightcolumn {   
-      width: 100%;
+      width: 90%;
       padding: 0;
+      justify-content: center;
     }
   }
   

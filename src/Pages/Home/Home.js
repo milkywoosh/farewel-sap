@@ -10,77 +10,159 @@ function Home() {
 
       <div className="row">
         <div className="leftcolumn">
-          <div className="cards">
+          <div className="cardWrapper">
             <h2
               style={{
-                backgroundColor: "#d865c9",
-                padding: "4px",
+                backgroundColor: "#f56505",
+                paddingTop: "10px",
                 borderRadius: "4px",
-                fontWeight: "500",
+                justifyContent: "center",
+                width: "700px",
+                boxShadow: "2px 2px 1px 1px black",
+                border: "3px solid black",
+                textAlign: "center",
               }}
             >
-              Lukman CS KK HO SAP
+              <p style={{ fontSize: "30px", fontWeight: "800" }}>
+                AULIYA LUKMAN
+              </p>
             </h2>
             <h5
               style={{
-                backgroundColor: "#d865c9",
-                padding: "4px",
+                backgroundColor: "#f56505",
+                padding: "9px",
                 borderRadius: "4px",
+                width: "400px",
+                boxShadow: "2px 2px 1px 1px black",
+                border: "3px solid black",
+                textAlign: "center",
+                fontWeight: "800",
+              }}
+            >
+              Periode 2019 - 2022, SAP Halim Perdana Kusuma, no. 28 Jl. Komodor
+            </h5>
+            <h5
+              style={{
+                backgroundColor: "#f56505",
+                padding: "9px",
+                borderRadius: "4px",
+                width: "400px",
+                boxShadow: "2px 2px 1px 1px black",
+                border: "3px solid black",
+                textAlign: "center",
+                marginLeft: "100px",
+                fontWeight: "800",
+              }}
+            >
+              Periode 2019 - 2022, SAP Halim Perdana Kusuma, no. 28 Jl. Komodor
+            </h5>
+            <h5
+              style={{
+                backgroundColor: "#f56505",
+                padding: "9px",
+                borderRadius: "4px",
+                width: "400px",
+                boxShadow: "2px 2px 1px 1px black",
+                border: "3px solid black",
+                textAlign: "center",
+                marginLeft: "300px",
+                fontWeight: "800",
               }}
             >
               Periode 2019 - 2022, SAP Halim Perdana Kusuma, no. 28 Jl. Komodor
             </h5>
             <div
-              className=""
               style={{
-                height: "400px",
+                // height: "550px",
                 borderRadius: "5px",
-                marginBottom: "100px",
-                display: "flex",
-                flexDirection: "row",
+                marginBottom: "10px",
+                width: "100%",
+                justifyContent: "center",
               }}
             >
               <img
-                className="fakeimg"
+                className=""
+                alt=""
                 src={require("../../assets/photocccc.jpg").default}
-                height={"500px"}
-                borderRadius={"5px"}
+                style={{
+                  boxShadow: "4px 4px 2px 2px black",
+                  border: "3px solid black",
+                  height: "500px",
+                  borderRadius: "5px",
+                  marginLeft: "10rem",
+                }}
               />
             </div>
 
-            {/* <div  style={{margin: "100px"}}>
-              <p>Some text..</p>
-              <p>
-                Sunt in culpa qui officia deserunt mollit anim id est laborum
-                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                nostrud exercitation ullamco.
-              </p>
-            </div> */}
+            <div
+              style={{
+                height: "550px",
+                borderRadius: "5px",
+                marginBottom: "100px",
+                justifyContent: "center",
+                alignContent: "center",
+                alignItems: "center",
+                width: "100%",
+              }}
+            >
+              <img
+                className=""
+                alt=""
+                src={require("../../assets/floating-ban.JPG").default}
+                style={{
+                  boxShadow: "4px 4px 2px 2px black",
+                  border: "3px solid black",
+                  height: "500px",
+                  borderRadius: "5px",
+                }}
+              />
+            </div>
           </div>
         </div>
+
         <div className="rightcolumn">
           <div className="cards">
-            <div className="gitHub" style={{ height: "50px" }}>
+            <div className="gitHub" style={{ height: "80px" }}>
               <a
                 id="linkGit"
-                href="https://github.com/milkywoosh/farewel-sap/tree/master"
-                style={{ fontWeight: "100", textAlign: "center" }}
+                href="https://github.com/milkywoosh/"
+                target="_blank" rel="noopener noreferrer"
+                style={{
+                  fontWeight: "600",
+                  textAlign: "center",
+                  width: "200px",
+                }}
               >
-                <u style={{textAlign: "center"}}>Github</u>
+                <button
+                  className="button"
+                >
+                  {" "}
+                  <b> GITHUB</b>
+                </button>
               </a>
             </div>
           </div>
-          <div className="cards">
-            <h3 style={{textAlign: "center", background: "#f46505", borderRadius: "5px", padding: "6px"}}>Popular Post</h3>
-            <div className="fakeimg">
-              <p>Sic Parvis Magna</p>
+          <div className="cards boxBold ">
+            <h3
+              className="boxBold"
+              style={{
+                textAlign: "center",
+                background: "#f46505",
+                borderRadius: "5px",
+                padding: "6px",
+                fontWeight: "600",
+              }}
+            >
+              Popular Post
+            </h3>
+            <div className="fakeimg boxBold">
+              <p style={{ fontWeight: "600" }}>Sic Parvis Magna</p>
             </div>
-            <div className="fakeimg">
-              <p>Sic Parvis Magna</p>
+            <div className="fakeimg boxBold">
+              <p style={{ fontWeight: "600" }}>Sic Parvis Magna</p>
             </div>
-            <div className="fakeimg">
-              <p>Sic Parvis Magna</p>
+            <div className="fakeimg boxBold">
+              <p style={{ fontWeight: "600" }}>Sic Parvis Magna</p>
             </div>
           </div>
         </div>
